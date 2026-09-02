@@ -1,6 +1,5 @@
 {
   "version": 2,
-  "name": "novaai-saas-landing-page",
   "cleanUrls": true,
   "trailingSlash": false,
   "headers": [
