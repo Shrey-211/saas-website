@@ -1,0 +1,18 @@
+{
+  "name": "novaai-saas-landing-page",
+  "version": "1.0.0",
+  "description": "Premium SaaS Landing Page Static Website Template ready for Vercel deployment.",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve ."
+  },
+  "keywords": [
+    "saas",
+    "landing-page",
+    "vercel",
+    "static-website",
+    "template"
+  ],
+  "author": "NovaAI Team",
+  "license": "MIT"
+}

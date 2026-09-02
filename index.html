@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NovaAI - Next-generation AI workflow automation platform. Automate multi-step operations with autonomous AI agents. Hostable on Vercel.">
+    <meta name="keywords" content="SaaS, AI Workflows, Automation, Artificial Intelligence, Vercel Static Site, Landing Page Template">
+    <meta property="og:title" content="NovaAI — Autonomous AI Workflow Automation">
+    <meta property="og:description" content="Transform your productivity with intelligent AI agents. Connect your tools, automate complex flows, and scale team output.">
+    <meta property="og:image" content="assets/hero-dashboard.png">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    
+    <title>NovaAI — Autonomous AI Workflow Automation Platform</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Background Dynamic Glow Spheres -->
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+    <div class="bg-glow bg-glow-3"></div>
+
+    <!-- HEADER / NAVIGATION -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="nav-logo">
+                <div class="logo-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="url(#logo-grad-1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M2 17L12 22L22 17" stroke="url(#logo-grad-2)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M2 12L12 17L22 12" stroke="url(#logo-grad-3)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <defs>
+                            <linearGradient id="logo-grad-1" x1="2" y1="2" x2="22" y2="12" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#8B5CF6"/>
+                                <stop offset="1" stop-color="#EC4899"/>
+                            </linearGradient>
+                            <linearGradient id="logo-grad-2" x1="2" y1="17" x2="22" y2="22" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#6366F1"/>
+                                <stop offset="1" stop-color="#8B5CF6"/>
+                            </linearGradient>
+                            <linearGradient id="logo-grad-3" x1="2" y1="12" x2="22" y2="17" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#3B82F6"/>
+                                <stop offset="1" stop-color="#6366F1"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+                <span class="logo-text">Nova<span class="gradient-text">AI</span></span>
+            </a>
+
+            <nav class="nav-menu" id="navMenu">
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#solutions" class="nav-link">Solutions</a>
+                <a href="#showcase" class="nav-link">Platform</a>
+                <a href="#pricing" class="nav-link">Pricing</a>
+                <a href="#faq" class="nav-link">FAQ</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="btn btn-ghost open-modal-btn" data-plan="Sign In">Sign In</button>
+                <button class="btn btn-primary open-modal-btn" data-plan="Free Trial">
+                    <span>Start Free Trial</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </button>
+                <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle Navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-badge animate-fade-in">
+                <span class="badge-dot"></span>
+                <span class="badge-text">NovaAI 2.0 Released — Next-Gen AI Workflows</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </div>
+
+            <h1 class="hero-title animate-fade-up">
+                Automate complex workflows with <span class="gradient-text">autonomous AI agents</span>
+            </h1>
+
+            <p class="hero-subtitle animate-fade-up delay-1">
+                Deploy intelligent AI agents that connect your software stack, execute multi-step business logic, and scale team output by 10x with zero manual code.
+            </p>
+
+            <div class="hero-cta-group animate-fade-up delay-2">
+                <button class="btn btn-primary btn-lg open-modal-btn" data-plan="Hero Pro Trial">
+                    <span>Start 14-Day Free Trial</span>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </button>
+                <a href="#showcase" class="btn btn-glass btn-lg">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                    <span>Watch Interactive Demo</span>
+                </a>
+            </div>
+
+            <div class="social-proof animate-fade-up delay-3">
+                <p class="social-proof-label">TRUSTED BY INNOVATIVE TEAMS AT</p>
+                <div class="partner-logos">
+                    <span class="partner-logo">⚡ ACME CORP</span>
+                    <span class="partner-logo">❖ NEXUS LABS</span>
+                    <span class="partner-logo">▲ CLOUDSCALE</span>
+                    <span class="partner-logo">● VELOCE</span>
+                    <span class="partner-logo">◆ PULSE AI</span>
+                </div>
+            </div>
+
+            <!-- HERO MOCKUP DISPLAY -->
+            <div class="hero-mockup-wrapper animate-fade-up delay-4">
+                <div class="mockup-frame">
+                    <div class="mockup-header">
+                        <div class="mockup-dots">
+                            <span class="dot dot-red"></span>
+                            <span class="dot dot-yellow"></span>
+                            <span class="dot dot-green"></span>
+                        </div>
+                        <div class="mockup-address">https://app.novaai.io/dashboard/workflows</div>
+                        <div class="mockup-status"><span class="status-indicator"></span> Live Session</div>
+                    </div>
+                    <div class="mockup-image-container">
+                        <img src="assets/hero-dashboard.png" alt="NovaAI SaaS Dashboard Preview" class="mockup-image">
+                        <!-- Floating Glass Badges -->
+                        <div class="floating-badge badge-top-right">
+                            <span class="icon">⚡</span>
+                            <div>
+                                <div class="val">99.8% Accuracy</div>
+                                <div class="sub">Autonomous LLM Reasoning</div>
+                            </div>
+                        </div>
+                        <div class="floating-badge badge-bottom-left">
+                            <span class="icon">🚀</span>
+                            <div>
+                                <div class="val">1.2M Events/sec</div>
+                                <div class="sub">High Throughput Pipeline</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- METRICS STATS BAR -->
+    <section class="stats-section">
+        <div class="container stats-grid">
+            <div class="stat-card">
+                <div class="stat-value" data-target="10000">10,000+</div>
+                <div class="stat-label">Active Organizations</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" data-target="50">50M+</div>
+                <div class="stat-label">Monthly Tasks Executed</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">99.99%</div>
+                <div class="stat-label">System Uptime SLA</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">4.9 / 5</div>
+                <div class="stat-label">Customer Satisfaction Rating</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BENTO GRID FEATURES SECTION -->
+    <section class="features-section" id="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">ENGINEERED FOR SCALE</span>
+                <h2 class="section-title">Everything you need to orchestrate <span class="gradient-text">intelligent workflows</span></h2>
+                <p class="section-subtitle">Replace fragile brittle webhooks and legacy automation tools with resilient, self-healing AI agents.</p>
+            </div>
+
+            <div class="bento-grid">
+                <!-- Bento Card 1: Large Visual Builder -->
+                <div class="bento-card bento-lg">
+                    <div class="bento-content">
+                        <div class="feature-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+                        </div>
+                        <h3>Visual Drag & Drop Agent Canvas</h3>
+                        <p>Chain multi-modal AI models, API webhooks, databases, and custom JS scripts into unified autonomous workflows within seconds.</p>
+                    </div>
+                    <div class="bento-visual workflow-preview-graphic">
+                        <div class="node node-1">
+                            <span class="node-icon">📥</span> Trigger: Customer Ticket
+                        </div>
+                        <div class="node-connector"></div>
+                        <div class="node node-2 active-glow">
+                            <span class="node-icon">🤖</span> AI Agent: Intent & Sentiment Analysis
+                        </div>
+                        <div class="node-connector"></div>
+                        <div class="node node-3">
+                            <span class="node-icon">💬</span> Action: Slack Alert & Auto Reply
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bento Card 2: Security -->
+                <div class="bento-card">
+                    <div class="bento-content">
+                        <div class="feature-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                        </div>
+                        <h3>Enterprise Grade Security</h3>
+                        <p>SOC 2 Type II certified, GDPR compliant, zero data retention policy for AI prompts, and AES-256 end-to-end encryption.</p>
+                    </div>
+                    <div class="security-badges-flex">
+                        <span class="sec-chip">SOC2 Certified</span>
+                        <span class="sec-chip">GDPR Ready</span>
+                        <span class="sec-chip">AES-256</span>
+                    </div>
+                </div>
+
+                <!-- Bento Card 3: Integrations -->
+                <div class="bento-card">
+                    <div class="bento-content">
+                        <div class="feature-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+                        </div>
+                        <h3>300+ Pre-built Integrations</h3>
+                        <p>Connect natively with GitHub, Slack, Notion, Salesforce, PostgreSQL, OpenAI, Claude, and custom REST APIs.</p>
+                    </div>
+                    <div class="integration-icons-grid">
+                        <div class="app-icon">Slack</div>
+                        <div class="app-icon">GitHub</div>
+                        <div class="app-icon">Notion</div>
+                        <div class="app-icon">Postgres</div>
+                    </div>
+                </div>
+
+                <!-- Bento Card 4: Self Healing -->
+                <div class="bento-card bento-lg">
+                    <div class="bento-content">
+                        <div class="feature-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 4v6h-6"/><path d="M1 20v-6h6"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
+                        </div>
+                        <h3>Autonomous Self-Healing Exception Retry</h3>
+                        <p>If an API rate-limits or an unexpected payload structure arrives, NovaAI dynamically re-plans and adapts schema parsing in real time to prevent pipeline breaks.</p>
+                    </div>
+                    <div class="code-snippet-box">
+                        <div class="code-header"><span>agent-fallback.js</span><span class="status-ok">Self-Healed ✓</span></div>
+                        <pre><code><span class="token-keyword">try</span> {
+  <span class="token-fn">await</span> agent.<span class="token-fn">executeStep</span>(payload);
+} <span class="token-keyword">catch</span> (schemaError) {
+  <span class="token-keyword">const</span> adapted = <span class="token-fn">await</span> agent.<span class="token-fn">replan</span>(schemaError);
+  <span class="token-keyword">return</span> adapted.<span class="token-fn">resume</span>();
+}</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- INTERACTIVE TABBED SHOWCASE SECTION -->
+    <section class="showcase-section" id="showcase">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">INTERACTIVE PLATFORM DEMO</span>
+                <h2 class="section-title">Experience the power of <span class="gradient-text">NovaAI Platform</span></h2>
+                <p class="section-subtitle">Click below to explore how different components interact in real time.</p>
+            </div>
+
+            <div class="showcase-tabs-nav">
+                <button class="showcase-tab active" data-tab="tab-prompt">🤖 Prompt Chains</button>
+                <button class="showcase-tab" data-tab="tab-visual">🌐 Visual Pipeline</button>
+                <button class="showcase-tab" data-tab="tab-analytics">📊 Live Analytics</button>
+                <button class="showcase-tab" data-tab="tab-api">⚡ REST & Webhooks</button>
+            </div>
+
+            <div class="showcase-display-box">
+                <!-- Tab Panel 1 -->
+                <div class="tab-panel active" id="tab-prompt">
+                    <div class="panel-grid">
+                        <div class="panel-info">
+                            <h3>AI Prompt & Reasoning Chains</h3>
+                            <p>Craft multi-turn system prompts, configure temperature controls, specify structured JSON outputs, and test with live payloads before deploying to production.</p>
+                            <ul class="feature-checklist">
+                                <li>✓ Natural Language Task Description</li>
+                                <li>✓ Strict JSON Schema Enforcer</li>
+                                <li>✓ Human-in-the-Loop Approval Step</li>
+                            </ul>
+                        </div>
+                        <div class="panel-preview">
+                            <div class="mockup-code-window">
+                                <div class="window-bar"><span class="w-dot red"></span><span class="w-dot yellow"></span><span class="w-dot green"></span> prompt_agent.json</div>
+                                <div class="window-body">
+                                    <pre><code>{
+  <span class="token-string">"agent_id"</span>: <span class="token-string">"support-triage-v2"</span>,
+  <span class="token-string">"model"</span>: <span class="token-string">"gpt-4o-mini"</span>,
+  <span class="token-string">"temperature"</span>: 0.2,
+  <span class="token-string">"instructions"</span>: <span class="token-string">"Categorize incoming customer issue and route to engineering if urgency > 8."</span>,
+  <span class="token-string">"status"</span>: <span class="token-string">"DEPLOYED_ACTIVE"</span>
+}</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab Panel 2 -->
+                <div class="tab-panel" id="tab-visual">
+                    <div class="panel-grid">
+                        <div class="panel-info">
+                            <h3>Visual Workflow Graph</h3>
+                            <p>Map complex enterprise logic using our intuitive node canvas. Drag conditional splits, parallel sub-routines, and webhooks without writing code.</p>
+                            <ul class="feature-checklist">
+                                <li>✓ Infinite Canvas Grid</li>
+                                <li>✓ Parallel Step Execution</li>
+                                <li>✓ Instant Test Runs with Live Logs</li>
+                            </ul>
+                        </div>
+                        <div class="panel-preview">
+                            <div class="graph-visual-canvas">
+                                <div class="graph-card g-trigger">🚀 Webhook Trigger: Payment Received</div>
+                                <div class="graph-arrow">↓</div>
+                                <div class="graph-card g-agent">🤖 AI Agent: Generate Invoice & Receipt PDF</div>
+                                <div class="graph-arrow">↓</div>
+                                <div class="graph-card g-action">✉️ Send Email via SendGrid & Notify Slack</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab Panel 3 -->
+                <div class="tab-panel" id="tab-analytics">
+                    <div class="panel-grid">
+                        <div class="panel-info">
+                            <h3>Real-Time Execution Analytics</h3>
+                            <p>Monitor latency bottlenecks, token consumption cost per workflow run, error rate spikes, and cost breakdown in a unified dashboard.</p>
+                            <ul class="feature-checklist">
+                                <li>✓ Latency Heatmaps</li>
+                                <li>✓ Token Cost Optimizer</li>
+                                <li>✓ Real-Time Webhook Logs</li>
+                            </ul>
+                        </div>
+                        <div class="panel-preview">
+                            <div class="analytics-card-preview">
+                                <div class="metric-row">
+                                    <span>Avg Execution Time</span>
+                                    <strong class="text-green">142 ms</strong>
+                                </div>
+                                <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 85%;"></div></div>
+
+                                <div class="metric-row" style="margin-top: 15px;">
+                                    <span>Token Savings Rate</span>
+                                    <strong class="text-purple">42.5% cached</strong>
+                                </div>
+                                <div class="progress-bar-bg"><div class="progress-bar-fill purple-fill" style="width: 68%;"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab Panel 4 -->
+                <div class="tab-panel" id="tab-api">
+                    <div class="panel-grid">
+                        <div class="panel-info">
+                            <h3>Developer First REST & SDKs</h3>
+                            <p>Trigger workflows programmatically using clean REST APIs, Webhooks, or official TypeScript & Python SDK packages.</p>
+                            <ul class="feature-checklist">
+                                <li>✓ Type-Safe TypeScript & Python SDKs</li>
+                                <li>✓ Webhook Signature Verification</li>
+                                <li>✓ 99.99% Uptime Guarantee</li>
+                            </ul>
+                        </div>
+                        <div class="panel-preview">
+                            <div class="mockup-code-window">
+                                <div class="window-bar"><span class="w-dot red"></span><span class="w-dot yellow"></span><span class="w-dot green"></span> terminal - curl</div>
+                                <div class="window-body">
+                                    <pre><code>curl -X POST https://api.novaai.io/v1/workflows/trigger \
+  -H <span class="token-string">"Authorization: Bearer nva_live_9f82..."</span> \
+  -H <span class="token-string">"Content-Type: application/json"</span> \
+  -d <span class="token-string">'{"workflow_id": "wf_8821", "inputs": {"user_id": "usr_99"}}'</span></code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRICING SECTION -->
+    <section class="pricing-section" id="pricing">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">TRANSPARENT PRICING</span>
+                <h2 class="section-title">Flexible plans for teams of <span class="gradient-text">every size</span></h2>
+                <p class="section-subtitle">Start for free. No credit card required. Upgrade when you need more power.</p>
+
+                <!-- Billing Toggle Switch -->
+                <div class="billing-toggle-container">
+                    <span class="billing-label" id="monthlyLabel">Monthly</span>
+                    <button class="toggle-switch" id="billingToggle" aria-label="Toggle Billing Period">
+                        <span class="switch-ball"></span>
+                    </button>
+                    <span class="billing-label" id="annualLabel">Annual <span class="discount-badge">Save 20%</span></span>
+                </div>
+            </div>
+
+            <div class="pricing-cards-grid">
+                <!-- Pricing Card 1: Starter -->
+                <div class="pricing-card">
+                    <div class="card-tier">Starter</div>
+                    <div class="card-desc">Ideal for developers & side projects</div>
+                    <div class="price-box">
+                        <span class="currency">$</span>
+                        <span class="amount" data-monthly="0" data-annual="0">0</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <button class="btn btn-ghost full-width open-modal-btn" data-plan="Starter Tier">Get Started Free</button>
+                    <ul class="pricing-features">
+                        <li><span class="check">✓</span> 1,000 Workflow Executions/mo</li>
+                        <li><span class="check">✓</span> 3 Active AI Agents</li>
+                        <li><span class="check">✓</span> Standard Community Support</li>
+                        <li><span class="check">✓</span> Access to 50+ Basic Integrations</li>
+                    </ul>
+                </div>
+
+                <!-- Pricing Card 2: Pro (Featured) -->
+                <div class="pricing-card popular-card">
+                    <div class="popular-tag">MOST POPULAR</div>
+                    <div class="card-tier">Pro</div>
+                    <div class="card-desc">For fast-growing startups & automated ops</div>
+                    <div class="price-box">
+                        <span class="currency">$</span>
+                        <span class="amount" data-monthly="29" data-annual="24">29</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <button class="btn btn-primary full-width open-modal-btn" data-plan="Pro Tier">Start 14-Day Free Trial</button>
+                    <ul class="pricing-features">
+                        <li><span class="check">✓</span> 50,000 Workflow Executions/mo</li>
+                        <li><span class="check">✓</span> Unlimited AI Agents & Logic Nodes</li>
+                        <li><span class="check">✓</span> Priority 24/7 Email & Chat Support</li>
+                        <li><span class="check">✓</span> 300+ Advanced Integrations</li>
+                        <li><span class="check">✓</span> Self-Healing Exception Retries</li>
+                        <li><span class="check">✓</span> Team Workspace & Roles</li>
+                    </ul>
+                </div>
+
+                <!-- Pricing Card 3: Enterprise -->
+                <div class="pricing-card">
+                    <div class="card-tier">Enterprise</div>
+                    <div class="card-desc">Dedicated infrastructure & custom SLAs</div>
+                    <div class="price-box">
+                        <span class="currency">$</span>
+                        <span class="amount" data-monthly="99" data-annual="79">99</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <button class="btn btn-ghost full-width open-modal-btn" data-plan="Enterprise Tier">Contact Sales</button>
+                    <ul class="pricing-features">
+                        <li><span class="check">✓</span> Unlimited Workflow Executions</li>
+                        <li><span class="check">✓</span> Dedicated Isolated Runner Pods</li>
+                        <li><span class="check">✓</span> Custom SOC2 & HIPAA Compliance</li>
+                        <li><span class="check">✓</span> Custom SAML SSO & Audit Logs</li>
+                        <li><span class="check">✓</span> Dedicated Account Manager & SLA</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS / WALL OF LOVE -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">CUSTOMER REVIEWS</span>
+                <h2 class="section-title">Loved by engineering & ops teams <span class="gradient-text">worldwide</span></h2>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="quote">"NovaAI saved our ops team over 30 hours a week. We automated our entire customer onboarding pipeline in less than an hour."</p>
+                    <div class="user-info">
+                        <div class="avatar-circle">SJ</div>
+                        <div>
+                            <div class="user-name">Sarah Jenkins</div>
+                            <div class="user-role">Head of Ops, TechScale</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="quote">"The self-healing exception retry feature is pure magic. When third-party APIs fail, NovaAI automatically adapts without breaking our workflow."</p>
+                    <div class="user-info">
+                        <div class="avatar-circle purple-avatar">MK</div>
+                        <div>
+                            <div class="user-name">Marcus Chen</div>
+                            <div class="user-role">Lead Architect, Acme Inc</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="quote">"Deploying this site on Vercel took 1 click, and integrating NovaAI into our product backend was seamless. Highly recommended template!"</p>
+                    <div class="user-info">
+                        <div class="avatar-circle blue-avatar">EL</div>
+                        <div>
+                            <div class="user-name">Elena Rostova</div>
+                            <div class="user-role">CTO, Veloce Labs</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ ACCORDION SECTION -->
+    <section class="faq-section" id="faq">
+        <div class="container faq-container">
+            <div class="section-header text-center">
+                <span class="section-tag">GOT QUESTIONS?</span>
+                <h2 class="section-title">Frequently Asked <span class="gradient-text">Questions</span></h2>
+            </div>
+
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span>How does the 14-day free trial work?</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p>You get immediate full access to all Pro Tier features for 14 days. No credit card required to start. At the end of the trial, you can choose a plan or remain on the free Starter tier.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span>Can I deploy this landing page directly to Vercel?</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Yes! This website is built as a zero-dependency static template with an included <code>vercel.json</code> file. Simply push this codebase to GitHub or use the Vercel CLI to deploy in seconds.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span>Is my company data used to train AI models?</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Never. NovaAI maintains strict zero-data-retention agreements with underlying LLM providers. Your prompts, customer records, and operational payloads are never stored or used for model training.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span>Can I cancel or switch plans at any time?</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Yes, you can upgrade, downgrade, or cancel your subscription at any time directly from your account settings with zero cancellation fees.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FINAL CONVERSION CTA SECTION -->
+    <section class="cta-banner-section">
+        <div class="container">
+            <div class="cta-card">
+                <div class="cta-glow"></div>
+                <h2 class="cta-title">Ready to supercharge your team's workflow?</h2>
+                <p class="cta-subtitle">Join over 10,000+ teams automating their operations with NovaAI today.</p>
+                <form class="cta-email-form" id="ctaForm">
+                    <input type="email" placeholder="Enter your work email..." required class="cta-input">
+                    <button type="submit" class="btn btn-primary">Start Free Trial</button>
+                </form>
+                <div class="cta-note">Instant 14-day trial • No credit card required • Vercel Ready</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="#" class="nav-logo">
+                    <span class="logo-text">Nova<span class="gradient-text">AI</span></span>
+                </a>
+                <p class="footer-desc">Autonomous AI workflow automation platform for modern engineering and operations teams.</p>
+                <div class="system-status">
+                    <span class="status-dot"></span> All Systems Operational
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Product</h4>
+                <a href="#features">Features</a>
+                <a href="#showcase">Platform Demo</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#faq">Integrations</a>
+            </div>
+
+            <div class="footer-col">
+                <h4>Resources</h4>
+                <a href="#">Documentation</a>
+                <a href="#">API Reference</a>
+                <a href="#">System Status</a>
+                <a href="#">Changelog</a>
+            </div>
+
+            <div class="footer-col">
+                <h4>Company</h4>
+                <a href="#">About Us</a>
+                <a href="#">Careers</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>© 2026 NovaAI Inc. All rights reserved. Configured for Vercel Static Deployment.</p>
+        </div>
+    </footer>
+
+    <!-- LEAD CAPTURE MODAL DIALOG -->
+    <div class="modal-overlay" id="leadModal">
+        <div class="modal-card">
+            <button class="modal-close" id="modalCloseBtn">&times;</button>
+            <div class="modal-header">
+                <h3>Start Your 14-Day Free Trial</h3>
+                <p>Selected Plan: <strong id="selectedPlanText" class="gradient-text">Pro Tier</strong></p>
+            </div>
+            <form id="leadForm" class="modal-form">
+                <div class="form-group">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" id="fullName" placeholder="Jane Doe" required>
+                </div>
+                <div class="form-group">
+                    <label for="workEmail">Work Email</label>
+                    <input type="email" id="workEmail" placeholder="jane@company.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="teamSize">Team Size</label>
+                    <select id="teamSize">
+                        <option value="1-10">1 - 10 employees</option>
+                        <option value="11-50">11 - 50 employees</option>
+                        <option value="51-200">51 - 200 employees</option>
+                        <option value="200+">200+ employees</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary full-width">Create Account & Launch</button>
+            </form>
+            <div class="modal-success" id="modalSuccess" style="display: none;">
+                <div class="success-icon">🎉</div>
+                <h3>Welcome aboard!</h3>
+                <p>Your NovaAI workspace environment has been created. Redirecting to your dashboard...</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Script -->
+    <script src="script.js"></script>
+</body>
+</html>
